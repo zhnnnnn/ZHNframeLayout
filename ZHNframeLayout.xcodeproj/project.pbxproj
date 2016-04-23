@@ -15,6 +15,8 @@
 		CD5AE8561CC9E1A20000410A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5AE8541CC9E1A20000410A /* LaunchScreen.storyboard */; };
 		CD5AE8611CC9E1A20000410A /* ZHNframeLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AE8601CC9E1A20000410A /* ZHNframeLayoutTests.m */; };
 		CD5AE86C1CC9E1A20000410A /* ZHNframeLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AE86B1CC9E1A20000410A /* ZHNframeLayoutUITests.m */; };
+		CD5AE87B1CC9E1C80000410A /* UIView+ZHNframeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AE87A1CC9E1C80000410A /* UIView+ZHNframeLayout.m */; };
+		CD5AE87E1CC9E9270000410A /* ZHNframeLayoutMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5AE87D1CC9E9270000410A /* ZHNframeLayoutMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		CD5AE8671CC9E1A20000410A /* ZHNframeLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNframeLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5AE86B1CC9E1A20000410A /* ZHNframeLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNframeLayoutUITests.m; sourceTree = "<group>"; };
 		CD5AE86D1CC9E1A20000410A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5AE8791CC9E1C80000410A /* UIView+ZHNframeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZHNframeLayout.h"; sourceTree = "<group>"; };
+		CD5AE87A1CC9E1C80000410A /* UIView+ZHNframeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHNframeLayout.m"; sourceTree = "<group>"; };
+		CD5AE87C1CC9E9270000410A /* ZHNframeLayoutMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNframeLayoutMaker.h; sourceTree = "<group>"; };
+		CD5AE87D1CC9E9270000410A /* ZHNframeLayoutMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNframeLayoutMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				CD5AE84A1CC9E1A20000410A /* AppDelegate.m */,
 				CD5AE84C1CC9E1A20000410A /* ViewController.h */,
 				CD5AE84D1CC9E1A20000410A /* ViewController.m */,
+				CD5AE87C1CC9E9270000410A /* ZHNframeLayoutMaker.h */,
+				CD5AE87D1CC9E9270000410A /* ZHNframeLayoutMaker.m */,
+				CD5AE8791CC9E1C80000410A /* UIView+ZHNframeLayout.h */,
+				CD5AE87A1CC9E1C80000410A /* UIView+ZHNframeLayout.m */,
 				CD5AE84F1CC9E1A20000410A /* Main.storyboard */,
 				CD5AE8521CC9E1A20000410A /* Assets.xcassets */,
 				CD5AE8541CC9E1A20000410A /* LaunchScreen.storyboard */,
@@ -273,6 +283,8 @@
 				CD5AE84E1CC9E1A20000410A /* ViewController.m in Sources */,
 				CD5AE84B1CC9E1A20000410A /* AppDelegate.m in Sources */,
 				CD5AE8481CC9E1A20000410A /* main.m in Sources */,
+				CD5AE87B1CC9E1C80000410A /* UIView+ZHNframeLayout.m in Sources */,
+				CD5AE87E1CC9E9270000410A /* ZHNframeLayoutMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
