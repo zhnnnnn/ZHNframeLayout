@@ -8,11 +8,6 @@
 
 #import "ZHNframeLayoutMaker.h"
 
-#define oldFrameRectX self.frameRect.origin.x
-#define oldFrameRectY self.frameRect.origin.y
-#define oldFrameRectWeidth self.frameRect.size.width
-#define oldFrameRectHeight self.frameRect.size.height
-
 typedef NS_ENUM(NSUInteger,makeType){
     makeTypeLeft,
     makeTypeRight,

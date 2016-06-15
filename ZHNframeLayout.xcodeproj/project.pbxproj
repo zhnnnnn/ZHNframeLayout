@@ -57,6 +57,7 @@
 		CD5AE87A1CC9E1C80000410A /* UIView+ZHNframeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHNframeLayout.m"; sourceTree = "<group>"; };
 		CD5AE87C1CC9E9270000410A /* ZHNframeLayoutMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNframeLayoutMaker.h; sourceTree = "<group>"; };
 		CD5AE87D1CC9E9270000410A /* ZHNframeLayoutMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNframeLayoutMaker.m; sourceTree = "<group>"; };
+		CD70E5D51CCDB6AA00818D4E /* ZHNframeLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHNframeLayout.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,14 +108,11 @@
 		CD5AE8451CC9E1A20000410A /* ZHNframeLayout */ = {
 			isa = PBXGroup;
 			children = (
+				CD8C71791D10071B00C7AB5C /* zhnFrameLayout */,
 				CD5AE8491CC9E1A20000410A /* AppDelegate.h */,
 				CD5AE84A1CC9E1A20000410A /* AppDelegate.m */,
 				CD5AE84C1CC9E1A20000410A /* ViewController.h */,
 				CD5AE84D1CC9E1A20000410A /* ViewController.m */,
-				CD5AE87C1CC9E9270000410A /* ZHNframeLayoutMaker.h */,
-				CD5AE87D1CC9E9270000410A /* ZHNframeLayoutMaker.m */,
-				CD5AE8791CC9E1C80000410A /* UIView+ZHNframeLayout.h */,
-				CD5AE87A1CC9E1C80000410A /* UIView+ZHNframeLayout.m */,
 				CD5AE84F1CC9E1A20000410A /* Main.storyboard */,
 				CD5AE8521CC9E1A20000410A /* Assets.xcassets */,
 				CD5AE8541CC9E1A20000410A /* LaunchScreen.storyboard */,
@@ -148,6 +146,18 @@
 				CD5AE86D1CC9E1A20000410A /* Info.plist */,
 			);
 			path = ZHNframeLayoutUITests;
+			sourceTree = "<group>";
+		};
+		CD8C71791D10071B00C7AB5C /* zhnFrameLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CD70E5D51CCDB6AA00818D4E /* ZHNframeLayout.h */,
+				CD5AE87C1CC9E9270000410A /* ZHNframeLayoutMaker.h */,
+				CD5AE87D1CC9E9270000410A /* ZHNframeLayoutMaker.m */,
+				CD5AE8791CC9E1C80000410A /* UIView+ZHNframeLayout.h */,
+				CD5AE87A1CC9E1C80000410A /* UIView+ZHNframeLayout.m */,
+			);
+			name = zhnFrameLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -508,6 +518,7 @@
 				CD5AE8721CC9E1A20000410A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD5AE8731CC9E1A20000410A /* Build configuration list for PBXNativeTarget "ZHNframeLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +527,7 @@
 				CD5AE8751CC9E1A20000410A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD5AE8761CC9E1A20000410A /* Build configuration list for PBXNativeTarget "ZHNframeLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +536,7 @@
 				CD5AE8781CC9E1A20000410A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
